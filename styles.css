@@ -1,0 +1,60 @@
+body{
+    background: white;
+}
+
+.header{
+    display: block;
+    /* background-color: white; */
+    margin-top: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin: 0%;
+    align-content: space-between;
+}
+
+.card{
+    display: inline-block;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 24px;
+    background-color: white;
+    /* padding: 40px; */
+}
+
+.card:first-child{
+    margin-top: 24px;
+}
+
+.date{
+    float: right;
+    margin: 0;
+    color: lightgray;
+}
+
+
+.cardTitle{
+    margin: 0;
+    font-weight: bold;
+}
+
+.caption{
+    margin: 0;
+}
+
+/* .hashtag{
+    margin: 0;
+    float: right;
+    font-weight: bold;
+} */
+
+
+img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
